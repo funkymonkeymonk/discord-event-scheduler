@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "discord-event-scheduler"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-upgyogdgxou6"
+s3_prefix = "discord-event-scheduler"
+region = "us-east-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
